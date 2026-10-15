@@ -1,0 +1,71 @@
+{
+  "pod_version": "4.0",
+  "instrument": "CHF_JPY",
+  "granularity": "D",
+  "chunk_start": "2010-01-01",
+  "chunk_end": "2019-12-31",
+  "parquet_file": "OANDA_CHFJPY_CHFJPY_D_2010-01-01_to_2019-12-31.parquet",
+  "data_file": "OANDA_CHFJPY_CHFJPY_D_2010-01-01_to_2019-12-31.parquet",
+  "row_count": 2888,
+  "first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 89.758,
+    "high": 89.805,
+    "low": 89.575,
+    "close": 89.665,
+    "volume": 893
+  },
+  "last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 112.334,
+    "high": 112.484,
+    "low": 112.07,
+    "close": 112.252,
+    "volume": 59306
+  },
+  "csv_file": "OANDA_CHFJPY_CHFJPY_D_2010-01-01_to_2019-12-31.parquet",
+  "csv_row_count": 2888,
+  "csv_first_candle": {
+    "time": 1262469600,
+    "Time": "2010-01-02T22:00:00.000000000Z",
+    "open": 89.758,
+    "high": 89.805,
+    "low": 89.575,
+    "close": 89.665,
+    "volume": 893
+  },
+  "csv_last_candle": {
+    "time": 1577743200,
+    "Time": "2019-12-30T22:00:00.000000000Z",
+    "open": 112.334,
+    "high": 112.484,
+    "low": 112.07,
+    "close": 112.252,
+    "volume": 59306
+  },
+  "status": "VERIFIED",
+  "verified_at": "2026-10-15T04:41:58.000000000Z",
+  "generated_at": "2026-10-15T04:41:58.000000000Z",
+  "download_request": {
+    "total_api_blocks_in_run": 2,
+    "chunk_api_blocks": 2,
+    "chunk_permanent_errors": 0,
+    "permanent_error_details": [],
+    "all_block_outcomes": [
+      {
+        "from": "2004-05-31T21:00:00Z",
+        "to": "2018-02-07T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      },
+      {
+        "from": "2018-02-07T21:00:00Z",
+        "to": "2026-10-14T21:00:00Z",
+        "code": 200,
+        "msg": "OK"
+      }
+    ]
+  }
+}
